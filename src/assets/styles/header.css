@@ -1,0 +1,41 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/forHeader/headerBC.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.header__head {
+    background: linear-gradient(90deg, rgba(0, 209, 255, 0.3) 0%, rgba(0, 87, 255, 0.3) 100%);
+    backdrop-filter: blur(10px);
+    height: 60px;
+    width: 100vw;
+}
+
+.head {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head__nav {
+    display: flex;
+    gap: 40px;
+}
+
+a.nav__a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FFFFFF!important;
+}
+
+.head__cart-login {
+    display: flex;
+    gap: 20px;
+}
+
