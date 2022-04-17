@@ -1,0 +1,27 @@
+.slider {
+    background-color: black;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.slider-h {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.slider-container {
+    height: 500px;
+    border-radius: 15px;
+}
+
+.slider-img {
+    border-radius: 15px;
+    
+}

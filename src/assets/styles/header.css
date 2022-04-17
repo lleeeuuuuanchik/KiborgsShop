@@ -1,17 +1,18 @@
 .header {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-image: url("../img/forHeader/headerBC.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     object-fit: cover;
+    
 }
 
 .header__head {
     background: linear-gradient(90deg, rgba(0, 209, 255, 0.3) 0%, rgba(0, 87, 255, 0.3) 100%);
     backdrop-filter: blur(10px);
     height: 60px;
-    width: 100vw;
+    width: 100%;
 }
 
 .head {
@@ -31,7 +32,13 @@ a.nav__a {
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
-    color: #FFFFFF!important;
+    color: #ffffff;
+    transition: color 0.2s ease;
+}
+
+.nav__a:hover {
+    color: #000000;
+
 }
 
 .head__cart-login {
@@ -39,3 +46,35 @@ a.nav__a {
     gap: 20px;
 }
 
+
+.header-slogan {
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    gap: 25px;
+}
+
+.slogan-main {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 117px;
+
+    color: #FFFFFF;
+}
+
+.slogan-second {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.slogan-btn {
+    width: 319px;
+}
